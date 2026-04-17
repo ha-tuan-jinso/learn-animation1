@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>アニメーションデモ</title>
+
+<link rel="stylesheet" href="assets/css/demo.css">
+
+<style>
+</style>
+</head>
+<body>
+    <header>
+        <div class="header-block move-down">
+            <div class="header-logo">
+                <figure class="header-logo-img">
+                    <img src="assets/image/Logo.png" alt="">
+                </figure>
+                <div class="header-logo-text">
+                    <p class="logo-text-bold">スポーツ予約</p>
+                    <p class="logo-text">Sports Booking</p>
+                </div>
+            </div>
+            <div class="header-menu">
+                <ul class="header-menu-list">
+                    <li class="menu-item"><a href="">ホーム</a></li>
+                    <li class="menu-item"><a href="">スポーツ</a></li>
+                    <li class="menu-item"><a href="">施設</a></li>
+                    <li class="menu-item"><a href="">料金</a></li>
+                    <li class="menu-item"><a href="">お問い合わせ</a></li>
+                </ul>
+            </div>
+            <div class="header-button">
+                <p class="button-text">予約する</p>
+                <figure class="header-button-img">
+                    <img src="assets/image/arrow-button.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-block section-slide">
+            <div class="slide-text move-left">
+                <p class="slide-text-button">スポーツ予約アプリ</p>
+                <p class="slide-text-bold">好きな時に、
+好きな場所で</p>
+                <p>簡単予約で、あなたのスポーツライフを
+もっと自由に、もっと楽しく</p>
+                <div class="slide-buttons">
+                    <div class="slide-button-item">
+                        <p class="slide-button-text">今すぐ始める</p>
+                        <figure class="slide-button-img">
+                            <img src="assets/image/arrow-button.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="slide-button-item">
+                        <p class="slide-button-text">詳しく見る</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-images">
+                <figure class="slide-img slide-1">
+                    <img src="assets/image/slide1.jpeg" alt="slide">
+                </figure>
+                <figure class="slide-img slide-2">
+                    <img src="assets/image/slide2.jpeg" alt="slide">
+                </figure>
+                <figure class="slide-img slide-3">
+                    <img src="assets/image/slide3.jpeg" alt="slide">
+                </figure>
+            </div>
+        </section>
+
+        <section class="section-block section-category">
+            <h2 class="section-title">スポーツカテゴリー</h2>
+            <p class="section-subtitle">あなたに合ったスポーツを見つけましょう</p>
+            <div class="list-categories animation-content">
+                <div class="categoty-item cate-item-1">
+                    <figure class="categoty-item-img">
+                        <img src="assets/image/category1.png" alt="category">
+                    </figure>
+                    <p class="category-item-title">バドミントン</p>
+                    <p class="category-item-sub">Badminton</p>
+                </div>
+                <div class="categoty-item cate-item-2">
+                    <figure class="categoty-item-img">
+                        <img src="assets/image/category2.png" alt="category">
+                    </figure>
+                    <p class="category-item-title">テニス</p>
+                    <p class="category-item-sub">Tennis</p>
+                </div>
+                <div class="categoty-item cate-item-3">
+                    <figure class="categoty-item-img">
+                        <img src="assets/image/category3.png" alt="category">
+                    </figure>
+                    <p class="category-item-title">ジム</p>
+                    <p class="category-item-sub">Gym</p>
+                </div>
+                <div class="categoty-item cate-item-4">
+                    <figure class="categoty-item-img">
+                        <img src="assets/image/category4.png" alt="category">
+                    </figure>
+                    <p class="category-item-title">ヨガ</p>
+                    <p class="category-item-sub">Yoga</p>
+                </div>
+                <div class="categoty-item cate-item-5">
+                    <figure class="categoty-item-img">
+                        <img src="assets/image/category5.png" alt="category">
+                    </figure>
+                    <p class="category-item-title">スイミング</p>
+                    <p class="category-item-sub">Swimming</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block section-step">
+            <h2 class="section-title">ご利用の流れ</h2>
+            <p class="section-subtitle">3つのステップで簡単予約</p>
+            <div class="list-steps animation-content">
+                <div class="step-item step-item-1">
+                    <p class="step-item-number">01</p>
+                    <figure class="step-item-img">
+                        <img src="assets/image/step1.png" alt="step">
+                    </figure>
+                    <p class="step-item-title">スポーツを選ぶ</p>
+                    <p class="step-item-sub">Choose Sport</p>
+                    <p class="step-item-text">お好みのスポーツを選択してください</p>
+                </div>
+                <div class="step-item step-item-2">
+                    <p class="step-item-number">02</p>
+                    <figure class="step-item-img">
+                        <img src="assets/image/step2.png" alt="step">
+                    </figure>
+                    <p class="step-item-title">時間を選択</p>
+                    <p class="step-item-sub">Select Time</p>
+                    <p class="step-item-text">空いている時間帯を選びます</p>
+                </div>
+                <div class="step-item step-item-3">
+                    <p class="step-item-number">03</p>
+                    <figure class="step-item-img">
+                        <img src="assets/image/step3.png" alt="step">
+                    </figure>
+                    <p class="step-item-title">予約確定</p>
+                    <p class="step-item-sub">Confirm Booking</p>
+                    <p class="step-item-text">簡単に予約が完了します</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block section-heathy">
+            <h2 class="section-title">毎日を健康的に</h2>
+            <p class="section-subtitle">自分らしいスタイルで運動を楽しもう</p>
+            <div class="list-heathy animation-content">
+                <div class="heathy-item">
+                    <figure class="heathy-item-img">
+                        <img src="assets/image/heathy-1.jpeg" alt="毎日を健康的に">
+                    </figure>
+                </div>
+                <div class="heathy-item">
+                    <figure class="heathy-item-img">
+                        <img src="assets/image/heathy-2.jpeg" alt="毎日を健康的に">
+                    </figure>
+                </div>
+                <div class="heathy-item">
+                    <figure class="heathy-item-img">
+                        <img src="assets/image/heathy-3.jpeg" alt="毎日を健康的に">
+                    </figure>
+                </div>
+                <div class="heathy-item">
+                    <figure class="heathy-item-img">
+                        <img src="assets/image/heathy-4.jpeg" alt="毎日を健康的に">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block section-facility">
+            <h2 class="section-title">ご利用の流れ</h2>
+            <p class="section-subtitle">3つのステップで簡単予約</p>
+            <div class="list-facility animation-content">
+                <div class="facility-item facility-item-1">
+                    <figure class="facility-item-img">
+                        <img src="assets/image/facility-1.jpeg" alt="facility">
+                    </figure>
+                    <div class="facility-item-title">
+                        <p class="facility-item-text">東京スポーツセンター</p>
+                        <div class="facility-item-star">
+                            <figure class="facility-item-star-img">
+                                <img src="assets/image/star.png" alt="star">
+                            </figure>
+                            <p class="facility-item-star-text">4.8</p>
+                        </div>
+                    </div>
+                    <div class="facility-item-sub">
+                        <p class="item-sub-text">渋谷区 · 234 レビュー</p>
+                    </div>
+                    <div class="facility-item-price">
+                        <p class="item-price-text">¥3,500</p>
+                        <p class="item-price-button">予約する</p>
+                    </div>
+                </div>
+                <div class="facility-item facility-item-2">
+                    <figure class="facility-item-img">
+                        <img src="assets/image/facility-2.jpeg" alt="facility">
+                    </figure>
+                    <div class="facility-item-title">
+                        <p class="facility-item-text">アクティブフィットネス</p>
+                        <div class="facility-item-star">
+                            <figure class="facility-item-star-img">
+                                <img src="assets/image/star.png" alt="star">
+                            </figure>
+                            <p class="facility-item-star-text">4.9</p>
+                        </div>
+                    </div>
+                    <div class="facility-item-sub">
+                        <p class="item-sub-text">新宿区 · 456 レビュー</p>
+                    </div>
+                    <div class="facility-item-price">
+                        <p class="item-price-text">¥2,800</p>
+                        <p class="item-price-button">予約する</p>
+                    </div>
+                </div>
+                <div class="facility-item facility-item-3">
+                    <figure class="facility-item-img">
+                        <img src="assets/image/facility-3.jpeg" alt="facility">
+                    </figure>
+                    <div class="facility-item-title">
+                        <p class="facility-item-text">プレミアムコート</p>
+                        <div class="facility-item-star">
+                            <figure class="facility-item-star-img">
+                                <img src="assets/image/star.png" alt="star">
+                            </figure>
+                            <p class="facility-item-star-text">4.7</p>
+                        </div>
+                    </div>
+                    <div class="facility-item-sub">
+                        <p class="item-sub-text">港区 · 189 レビュー</p>
+                    </div>
+                    <div class="facility-item-price">
+                        <p class="item-price-text">¥4,200</p>
+                        <p class="item-price-button">予約する</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block section-plan">
+            <h2 class="section-title">料金プラン</h2>
+            <p class="section-subtitle">あなたに最適なプランを選びましょう</p>
+            <div class="list-plan animation-content">
+                <div class="plan-item plan-item-1">
+                    <p class="plan-special">人気</p>
+                    <p class="plan-title">ライト</p>
+                    <p class="plan-sub">Light</p>
+                    <p class="plan-price">¥2,980</p>
+                    <p class="plan-price-month">月額</p>
+                    <div class="plan-list-offer">
+                        <p class="offer-item-text">月4回まで利用可能</p>
+                        <p class="offer-item-text">基本施設アクセス</p>
+                        <p class="offer-item-text">オンライン予約</p>
+                        <p class="offer-item-text">オンライン予約</p>
+                    </div>
+                    <div class="plan-item-button">
+                        <p class="plan-item-button-text">始める</p>
+                    </div>
+                </div>
+                <div class="plan-item plan-item-active">
+                    <p class="plan-special">人気</p>
+                    <p class="plan-title">スタンダード</p>
+                    <p class="plan-sub">Standard</p>
+                    <p class="plan-price">¥5,980</p>
+                    <p class="plan-price-month">月額</p>
+                    <div class="plan-list-offer">
+                        <p class="offer-item-text">月12回まで利用可能</p>
+                        <p class="offer-item-text">全施設アクセス</p>
+                        <p class="offer-item-text">優先予約</p>
+                        <p class="offer-item-text">アプリ通知</p>
+                        <p class="offer-item-text">友達紹介特典</p>
+                    </div>
+                    <div class="plan-item-button">
+                        <p class="plan-item-button-text">始める</p>
+                    </div>
+                </div>
+                <div class="plan-item plan-item-1">
+                    <p class="plan-special">人気</p>
+                    <p class="plan-title">プレミアム</p>
+                    <p class="plan-sub">Premium</p>
+                    <p class="plan-price">¥9,980</p>
+                    <p class="plan-price-month">月額</p>
+                    <div class="plan-list-offer">
+                        <p class="offer-item-text">無制限利用</p>
+                        <p class="offer-item-text">VIP施設アクセス</p>
+                        <p class="offer-item-text">パーソナルトレーナー</p>
+                        <p class="offer-item-text">プライベートロッカー</p>
+                        <p class="offer-item-text">特別イベント参加</p>
+                    </div>
+                    <div class="plan-item-button">
+                        <p class="plan-item-button-text">始める</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block section-review">
+            <h2 class="section-title">お客様の声</h2>
+            <p class="section-subtitle">利用者のリアルな体験談</p>
+            <div class="list-review animation-content">
+                <div class="review-item review-item-1">
+                    <div class="review-item-title">
+                        <figure class="review-item-title-img">
+                            <img src="assets/image/review-1.png" alt="review">
+                        </figure>
+                        <div class="review-item-sub">
+                            <p class="review-item-title-text">田中 さくら</p>
+                            <p class="review-item-title-role">ヨガ</p>
+                        </div>
+                    </div>
+                    <div class="review-item-star">
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                    </div>
+                    <span class="review-item-comment">予約がとても簡単で、施設も清潔です。毎週利用しています！</span>
+                </div>
+                <div class="review-item review-item-1">
+                    <div class="review-item-title">
+                        <figure class="review-item-title-img">
+                            <img src="assets/image/review-2.png" alt="review">
+                        </figure>
+                        <div class="review-item-sub">
+                            <p class="review-item-title-text">田中 さくら</p>
+                            <p class="review-item-title-role">ヨガ</p>
+                        </div>
+                    </div>
+                    <div class="review-item-star">
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                    </div>
+                    <span class="review-item-comment">予約がとても簡単で、施設も清潔です。毎週利用しています！</span>
+                </div>
+                <div class="review-item review-item-1">
+                    <div class="review-item-title">
+                        <figure class="review-item-title-img">
+                            <img src="assets/image/review-3.png" alt="review">
+                        </figure>
+                        <div class="review-item-sub">
+                            <p class="review-item-title-text">佐藤 けんた</p>
+                            <p class="review-item-title-role">バドミントン</p>
+                        </div>
+                    </div>
+                    <div class="review-item-star">
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                    </div>
+                    <span class="review-item-comment">バドミントンコートの質が素晴らしい。友達と楽しく運動できます。</span>
+                </div>
+                <div class="review-item review-item-1">
+                    <div class="review-item-title">
+                        <figure class="review-item-title-img">
+                            <img src="assets/image/review-4.png" alt="review">
+                        </figure>
+                        <div class="review-item-sub">
+                            <p class="review-item-title-text">鈴木 あい</p>
+                            <p class="review-item-title-role">バドミントン</p>
+                        </div>
+                    </div>
+                    <div class="review-item-star">
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                        <figure class="review-item-star-img">
+                            <img src="assets/image/star.png" alt="star">
+                        </figure>
+                    </div>
+                    <span class="review-item-comment">アプリが使いやすくて、時間管理が楽になりました。</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block section-access">
+            <h2 class="section-title">アクセス</h2>
+            <p class="section-subtitle">全国各地の施設をご利用いただけます</p>
+            <div class="list-access">
+                <div class="list-access-content">
+                    <div class="access-item">
+                        <figure class="access-item-img">
+                            <img src="assets/image/map-icon.png" alt="map">
+                        </figure>
+                        <p class="access-item-title">東京</p>
+                        <p class="review-item-sub">45施設</p>
+                    </div>
+                    <div class="access-item">
+                        <figure class="access-item-img">
+                            <img src="assets/image/map-icon.png" alt="map">
+                        </figure>
+                        <p class="access-item-title">大阪</p>
+                        <p class="review-item-sub">32施設</p>
+                    </div>
+                    <div class="access-item">
+                        <figure class="access-item-img">
+                            <img src="assets/image/map-icon.png" alt="map">
+                        </figure>
+                        <p class="access-item-title">名古屋</p>
+                        <p class="review-item-sub">28施設</p>
+                    </div>
+                </div>
+                <p class="access-description">主要都市を中心に、全国105ヶ所以上の施設をご用意しています</p>
+            </div>
+        </section>
+
+        <section class="section-block section-app">
+            <div class="app-left">
+                <p class="app-left-title">アプリで
+もっと便利に</p>
+                <p class="app-left-sub">スマートフォンアプリなら、いつでもどこでも簡単に予約管理。</p>
+                <p class="app-left-sub">プッシュ通知で予約を忘れることもありません。</p>
+
+                <div class="plan-list-offer animation-content">
+                    <p class="offer-item-text">ワンタップで簡単予約</p>
+                    <p class="offer-item-text">リアルタイム空き状況確認</p>
+                    <p class="offer-item-text">お気に入り施設の登録</p>
+                    <p class="offer-item-text">予約リマインダー通知</p>
+                </div>
+                <div class="list-button-app">
+                    <div class="button-app">
+                        <figure class="button-app-img">
+                            <img src="assets/image/app-store.png" alt="app">
+                        </figure>
+                        <p class="button-app-text">App Store</p>
+                    </div>
+                    <div class="button-app">
+                        <figure class="button-app-img">
+                            <img src="assets/image/play-store.png" alt="app">
+                        </figure>
+                        <p class="button-app-text">Google Play</p>
+                    </div>
+                </div>
+            </div>
+            <div class="app-right">
+                <div class="app-right-content">
+                    <figure class="app-right-img">
+                        <img src="assets/image/lighting-blue.png" alt="lighting">
+                    </figure>
+                    <p class="app-right-title">スポーツ予約</p>
+                    <p class="app-right-sub">簡単・便利・快適</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block section-sale">
+            <div class="section-sale-content animation-content">
+                <p class="section-sale-title">今すぐ始めよう</p>
+                <p class="section-sale-sub">新規登録で初月50%オフ</p>
+                <div class="section-sale-button">
+                    <p class="section-sale-button-text">無料で始める</p>
+                    <figure class="section-sale-button-img">
+                        <img src="assets/image/arrow-purple.png" alt="app">
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-block">
+        <div class="footer-content">
+            <div class="footer-menu">
+                <div class="footer-menu-left">
+                    <h3 class="footer-menu-title">
+                        スポーツ予約
+                    </h3>
+                    <p class="footer-menu-sub">
+                        あなたのスポーツライフをサポート
+                    </p>
+                </div>
+                <div class="footer-menu-item">
+                    <h4 class="menu-item-title">
+                        サービス
+                    </h4>
+                    <ul class="menu-item-list">
+                        <li>
+                            <a href="#" class="menu-item-text">
+                                施設一覧
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-item-text">
+                                料金プラン
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-item-text">
+                                アプリ
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-menu-item">
+                    <h4 class="menu-item-title">
+                        サポート
+                    </h4>
+                    <ul class="menu-item-list">
+                        <li>
+                            <a href="#" class="menu-item-text">
+                                ヘルプ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-item-text">
+                                お問い合わせ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-item-text">
+                                FAQ
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-menu-item">
+                    <h4 class="menu-item-title">
+                        会社情報
+                    </h4>
+                    <ul class="menu-item-list">
+                        <li>
+                            <a href="#" class="menu-item-text">
+                                会社概要
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-item-text">
+                                採用情報
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-item-text">
+                                プライバシー
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-bottom-text">
+                    © 2026 スポーツ予約. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/demo.js"></script>
+</body>
+</html>
